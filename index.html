@@ -407,10 +407,10 @@ footer .fine{width:100%;margin-top:32px;padding-top:24px;border-top:1px solid va
 </script>
 <script>
 // Fill these once the values exist. Leave empty to keep the links inert.
-var ROOTER_LINKS={x:"https://x.com/RootronRH",contract:""};
+var ROOTER_LINKS={x:"https://x.com/RootronRH",contract:"0x308a36749bdac6e3c50a41299b3bdc564423590d"};
 (function(){function set(sel,url){document.querySelectorAll(sel).forEach(function(a){if(url){a.href=url;a.target="_blank";a.rel="noopener";}else{a.setAttribute("aria-disabled","true");a.addEventListener("click",function(e){e.preventDefault();});}});}
 set("[data-x-link]",ROOTER_LINKS.x);
-var c=document.querySelector("[data-contract]");if(c&&ROOTER_LINKS.contract)c.textContent=ROOTER_LINKS.contract;})();
+var c=document.querySelector("[data-contract]");if(c&&ROOTER_LINKS.contract){var a=document.createElement("a");a.href="https://robinhoodchain.blockscout.com/token/0x308a36749bdac6e3c50a41299b3bdc564423590d";a.target="_blank";a.rel="noopener";a.textContent=ROOTER_LINKS.contract.slice(0,6)+"…"+ROOTER_LINKS.contract.slice(-4);a.title=ROOTER_LINKS.contract;c.textContent="";c.appendChild(a);}})();
 </script>
 </body>
 </html>
