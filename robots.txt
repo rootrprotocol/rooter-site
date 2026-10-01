@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://rootrprotocol.github.io/rooter-site/sitemap.xml
+Sitemap: https://rooteronrh.com/sitemap.xml
