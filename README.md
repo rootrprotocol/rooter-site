@@ -11,7 +11,7 @@ The Rooter website. One static page, no build step: `index.html` holds the marku
 
 Edit `index.html` and push to `main`. GitHub Pages redeploys in about a minute.
 
-Three links are placeholders until the values exist: elements with `data-pons-link`, `data-x-link` and `data-contract`. Set them in one place at the bottom of `index.html`.
+Links are set in one place, the `ROOTER_LINKS` block at the bottom of `index.html`. The contract address is shown once `contract` is filled in.
 
 ## Custom domain
 
