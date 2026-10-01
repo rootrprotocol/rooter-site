@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Rooter">
+<circle cx="60" cy="60" r="58" fill="#0F2A1D"/><circle cx="60" cy="60" r="58" fill="none" stroke="#22C55E" stroke-opacity=".35" stroke-width="1"/><path d="M60 58C60 40 49 30 32 29C32 46 43 58 60 58Z" fill="#22C55E"/><path d="M60 58C60 36 75 25 93 24C93 43 80 58 60 58Z" fill="#4ADE80"/><g fill="none" stroke="#22C55E" stroke-width="6" stroke-linecap="round"><path d="M60 58V98M60 72C60 83 46 86 37 99M60 72C60 83 74 86 83 99"/></g><g fill="#22C55E"><circle cx="60" cy="101" r="4.5"/><circle cx="35" cy="102" r="4.5"/><circle cx="85" cy="102" r="4.5"/></g>
+</svg>
